@@ -1,0 +1,275 @@
+/* DataCard.css */
+
+.data-card-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #333;
+    /* Cambiado el color del borde */
+    border-radius: 10px;
+    /* Aumentado el radio del borde */
+    box-shadow: 0 4px 10px rgba(5, 2, 84, 0.2);
+    background-color: #004466;
+    /* Cambiado el color de fondo a negro */
+    color: #fff;
+    /* Cambiado el color del texto a blanco */
+}
+
+.data-card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    /* Color de título */
+}
+
+.data-card-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-card-table th,
+.data-card-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ffffff;
+    /* Cambiado el color de la línea */
+}
+
+.data-card-table th {
+    background-color: #000E14;
+    /* Color de fondo para las cabeceras */
+}
+
+/* Resto de tu CSS... */
+
+/* Estilos para el formulario */
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #130e53;
+    /* Cambiado el color de fondo */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    /* Cambiado el color del label */
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #555;
+    /* Cambiado el color del borde */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffffff;
+    /* Cambiado el color de fondo */
+    color: #000000;
+    /* Cambiado el color del texto */
+}
+
+.button {
+    margin-top: 10px;
+    width: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #1ed45e;
+    /* Color de fondo del botón */
+    cursor: pointer;
+    color: #fff;
+    /* Color del texto del botón */
+}
+
+.button:hover {
+    background-color: #d86767;
+    /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para los botones */
+.data-card-button {
+    padding: 10px 20px;
+    /* Ajusta el relleno */
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    /* Agregada transición para animación */
+}
+
+.data-card-button-create {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.data-card-button-create:hover {
+    background-color: #9ad09d;
+}
+
+.data-card-button-edit {
+    background-color: #008CBA;
+    color: #fff;
+}
+
+.data-card-button-edit:hover {
+    background-color: #85bdd1;
+}
+
+.data-card-button-delete {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.data-card-button-delete:hover {
+    background-color: #cb6969;
+}
+
+.data-card-button-save {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.data-card-button-save:hover {
+    background-color: #6cbb70;
+}
+
+.data-card-button-cancel {
+    margin-top: 10px;
+    background-color: #f44336;
+    color: #fff;
+}
+
+.data-card-button-cancel:hover {
+    background-color: #c85f5f;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .data-card-button {
+        margin-right: 0;
+        /* Elimina el margen derecho en pantallas pequeñas */
+        margin-bottom: 10px;
+        /* Añade un margen inferior en pantallas pequeñas */
+        width: 100%;
+        /* Ocupa todo el ancho disponible */
+    }
+}
+
+
+/* Estilos para select y opciones */
+.select-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #0e1b56;
+    color: #fff;
+}
+
+.select-field option {
+    background-color: #063b80;
+    color: #fff;
+}
+
+.select-field:hover,
+.select-field:focus {
+    border: 1px solid #0ccd20;
+}
+
+/* Animación para el botón */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button:hover {
+    animation: pulse 0.5s infinite;
+}
+
+.data-card-button-reports {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.data-card-button-reports:hover {
+    background-color: #45a049;
+}
+
+/* Fecha */
+/* Estilo para input de tipo fecha */
+
+
+/*Botones menu*/
+/* Estilo para el botón del menú */
+.data-card-button-menu {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00747A;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.data-card-button-menu:hover {
+    background-color: #5d88a4;
+    transform: scale(1.05);
+    /* Efecto de escala al pasar el ratón */
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    .data-card-button-menu {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.div-submit-buttons {
+    margin-top: 5%;
+}
+/* Estilos para el botón de generar PDF */
+.button-generar-pdf {
+    margin-top: 1%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 10px;
+}
+
+.button-generar-pdf:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,63 @@
+/* Estilos CSS para el modal "bangarudaista" */
+.modal {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2b76a4; /* Color de fondo vibrante */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff; /* Color de texto */
+  }
+  
+  .modal h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para los inputs */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff; /* Color de fondo para los inputs */
+    color: #333; /* Color de texto para los inputs */
+  }
+  
+  /* Estilos para los botones */
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Efecto de transición para el color de fondo */
+  }
+  
+  button:hover {
+    background-color: #ff5252; /* Cambia el color de fondo al pasar el cursor sobre los botones */
+  }
+  
+  /* Estilos para el botón "Crear" */
+  button.create-button {
+    background-color: #4caf50; /* Color de fondo para el botón "Crear" */
+    color: #fff; /* Color de texto para el botón "Crear" */
+  }
+  
+  button.create-button:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el cursor sobre el botón "Crear" */
+  }
+  
+  /* Estilos para el botón "Cancelar" */
+  button.cancel-button {
+    background-color: #f44336; /* Color de fondo para el botón "Cancelar" */
+    color: #fff; /* Color de texto para el botón "Cancelar" */
+  }
+  
+  button.cancel-button:hover {
+    background-color: #d32f2f; /* Cambia el color de fondo al pasar el cursor sobre el botón "Cancelar" */
+  }
+  

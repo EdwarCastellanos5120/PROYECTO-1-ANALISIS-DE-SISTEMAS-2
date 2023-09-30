@@ -1,0 +1,96 @@
+/* HomePageStyles.css */
+
+/* Estilos para el encabezado */
+.header {
+  background-color: #6ab04c;
+  text-align: center;
+  padding: 50px;
+}
+
+.header-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.header-image {
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el contenedor principal */
+/* Estilos para el contenedor principal */
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+/* Estilos para las características */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.feature {
+  flex-basis: calc(60% - 10px);/* Establece el ancho al 50% */
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Media query para ajustar el ancho de los elementos en pantallas pequeñas */
+@media (max-width: 600px) {
+  .feature {
+    flex-basis: calc(100% - 10px);/* Establece el ancho al 100% en pantallas pequeñas */
+  }
+}
+
+/* Estilos para el título de las características */
+.feature-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el texto de las características */
+.feature-text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces de características */
+.feature-link {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+.feature-link:hover {
+  text-decoration: underline;
+}
+.footer-container{
+  position: fixed; /* Establece la posición fija */
+  left: 0; /* Alinea a la izquierda del viewport */
+  bottom: 0; /* Alinea en la parte inferior del viewport */
+  width: 100%; /* Ocupa el ancho completo del viewport */
+  background-color: #333; /* Color de fondo del footer (puedes cambiarlo) */
+  color: #fff; /* Color de texto del footer (puedes cambiarlo) */
+  padding: 10px; 
+
+
+}
